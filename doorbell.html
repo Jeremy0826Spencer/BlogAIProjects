@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Ring Doorbell</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Make a Ring Doorbell</h1>
+        <nav>
+            <a href="index.html">Back to Home</a>
+        </nav>
+    </header>
+    <main>
+        <div class="doorbell-content">
+            <h2>Let’s make a small ring doorbell to test the application of ChatGPT.</h2>
+            <p>
+                To create this project, we need a microcontroller chip, a sensor, a breadboard,
+                a breadboard power supply can help, some dupont wires, and a computer to program on.
+                The list of items for this project was even created by GPT.
+            </p>
+            <h3>List of hardware:</h3>
+            <ul>
+                <li>Microcontroller: AITRIP ESP-WROOM-32 from Amazon.</li>
+                <li>Breadboard: Any (Just make sure it is a decent one. Some are badly made.)</li>
+                <li>Dupont wires: Any (To connect our components without any soldering.)</li>
+                <li>Computer: Any (Should be able to handle visual studio code.)</li>
+                <li>
+                    Breadboard power supply: Not needed if you use a model that has a USB type C, but if you
+                    want to test unplugged from your computer then it is needed.
+                </li>
+            </ul>
+            <p class="warning">
+                <strong>Note:</strong> Make sure to be careful. If you cannot do this without shocking yourself or
+                starting a fire, do not proceed.
+            </p>
+            <div class="project-setup">
+                <img src="doorbell-setup.jpg" alt="Doorbell Setup" class="project-image">
+                <p>
+                    This is my setup for the wiring of the components. It uses 3.3v to power ESP-32 and 5v
+                    to power the sensor, and I have the grounds connected. To power, you need a battery and the
+                    connector that came with the power supply to connect the battery to the power supply or just
+                    plug into the PC, and it will work while wired.
+                </p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

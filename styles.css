@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8ede6;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+.content, .doorbell-content {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.ai-image, .project-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-content h2, .doorbell-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-content p, .doorbell-content p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.warning {
+    color: #d9534f;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.project-setup {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.project-setup p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #666;
+}
